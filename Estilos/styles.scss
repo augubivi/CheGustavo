@@ -1,0 +1,108 @@
+@use '_anidacion';
+// Variables
+$color-texto1: black;
+$color-texto2: white;
+$negrita: bold;
+$fijo: fixed;
+$fondo: cover;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//MIXINS
+
+@mixin Fondos { 
+  background-size: $fondo;
+  background-attachment: $fijo;
+}
+
+@mixin Bordes {
+  border: solid 3px black;
+  color: black;
+  font-weight: bold;
+}
+
+//OPERACIONES
+   ///Operaciones-Productos
+.card{
+  width: 400px + 100px;
+  font-size: 17px + 5px;
+}
+   ///Operaciones-Ubicación
+  .Mapa{
+    height: 200px + 50px;
+    width:  250px + 50px;
+  }
+
+/*INICIO*/
+.nav-item {
+  margin: 40px;
+  margin-top: 0px;
+}
+
+.Titulo-inicio {
+  font-size: 50px;
+  font-weight: $negrita;
+  margin-top: 80px;
+}
+
+.Inicio {
+  background: url(../img/amigos-de-la-diversidad-que-hacen-frente-concepto-de-la-reunión-de-reflexión-de-la-cafetería-66884126.jpg);
+  @include Fondos()
+}
+.Logo {
+  margin-top: 240px;
+  margin-left: 100px;
+}
+
+.Texto-inicio {
+  font-size: 18px;
+  font-family: arial, sans-serif;
+  background-color: #262626;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 30px;
+  @include Bordes
+}
+
+.Redes {
+  letter-spacing: 30px;
+  margin-top: 30px;
+}
+
+/*PRODUCTOS*/
+.Body-productos {
+  background: url(../img/cafe-granos.jpg);
+  @include Fondos
+}
+
+/*SOBRE NOSOTROS*/
+.Body-sobrenosotros {
+  background: url(../img/fondomesamadera-overlay.jpg);
+  @include Fondos
+}
+
+/*UBICACIÓN*/
+.Body-ubicación {
+  background: url(../img/taza-cafe-granos-cafe-sobre-fondo-oscuro_126783-1105-overlay.jpg);
+  @include Fondos()
+}
+
+.Mapa {
+  margin-top: 50px;
+}
+
+/*EVENTOS*/
+
+.Body-eventos {
+  background: url(../img/amigos-de-la-diversidad-que-hacen-frente-concepto-de-la-reunión-de-reflexión-de-la-cafetería-66884126.jpg);
+  @include Fondos()
+}
+
+.img-eventos {
+  border: solid $color-texto1 4px;
+  margin: 2px;
+}

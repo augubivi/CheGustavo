@@ -1,0 +1,41 @@
+//MIXINS
+@mixin Bordes {
+    border: solid 3px black;
+    color: white;
+    font-weight: bold;
+  }
+
+//ANIDACIÓN 
+
+//Sobrenosotros
+.Sobrenosotros_contenido {
+    .Origen{
+        font-size: 70px; 
+        margin-top: 80px; 
+        text-align: center; 
+    }
+
+    .Texto-origen{
+        font-weight: bold; 
+        font-size: 20px; 
+        margin-top: 30px;
+    }
+}
+
+//EVENTOS
+
+.contenido-eventos{
+    .titulo-eventos{
+        background-color: #262626;
+        justify-content: center;
+        margin-top: 20px;
+        @include Bordes
+    }
+    .Texto-eventos{
+        background-color: #262626;
+        width: 400px;
+        font-size: 20px;
+        margin-top: 30px;
+        @include Bordes()
+    }
+}

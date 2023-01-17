@@ -1,0 +1,122 @@
+@charset "UTF-8";
+.Sobrenosotros_contenido .Origen {
+  font-size: 70px;
+  margin-top: 80px;
+  text-align: center;
+}
+.Sobrenosotros_contenido .Texto-origen {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.contenido-eventos .titulo-eventos {
+  background-color: #262626;
+  justify-content: center;
+  margin-top: 20px;
+  border: solid 3px black;
+  color: white;
+  font-weight: bold;
+}
+.contenido-eventos .Texto-eventos {
+  background-color: #262626;
+  width: 400px;
+  font-size: 20px;
+  margin-top: 30px;
+  border: solid 3px black;
+  color: white;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 500px;
+  font-size: 22px;
+}
+
+.Mapa {
+  height: 250px;
+  width: 300px;
+}
+
+/*INICIO*/
+.nav-item {
+  margin: 40px;
+  margin-top: 0px;
+}
+
+.Titulo-inicio {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+.Inicio {
+  background: url(../img/amigos-de-la-diversidad-que-hacen-frente-concepto-de-la-reunión-de-reflexión-de-la-cafetería-66884126.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Logo {
+  margin-top: 240px;
+  margin-left: 100px;
+}
+
+.Texto-inicio {
+  font-size: 18px;
+  font-family: arial, sans-serif;
+  background-color: #262626;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 30px;
+  border: solid 3px black;
+  color: black;
+  font-weight: bold;
+}
+
+.Redes {
+  letter-spacing: 30px;
+  margin-top: 30px;
+}
+
+/*PRODUCTOS*/
+.Body-productos {
+  background: url(../img/cafe-granos.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*SOBRE NOSOTROS*/
+.Body-sobrenosotros {
+  background: url(../img/fondomesamadera-overlay.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*UBICACIÓN*/
+.Body-ubicación {
+  background: url(../img/taza-cafe-granos-cafe-sobre-fondo-oscuro_126783-1105-overlay.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Mapa {
+  margin-top: 50px;
+}
+
+/*EVENTOS*/
+.Body-eventos {
+  background: url(../img/amigos-de-la-diversidad-que-hacen-frente-concepto-de-la-reunión-de-reflexión-de-la-cafetería-66884126.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img-eventos {
+  border: solid black 4px;
+  margin: 2px;
+}/*# sourceMappingURL=styles.css.map */
